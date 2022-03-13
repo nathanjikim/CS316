@@ -1,0 +1,1 @@
+SELECT Frequents.bar, Frequents.drinker FROM Frequents FULL OUTER JOIN (SELECT MAX(times_a_week), bar FROM Frequents WHERE Frequents.bar IN (SELECT bar FROM Frequents WHERE drinker = 'Ben') GROUP BY bar) AS bensfavplaces ON bensfavplaces.bar = Frequents.bar WHERE max = times_a_week;

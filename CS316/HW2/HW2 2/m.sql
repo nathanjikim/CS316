@@ -1,0 +1,1 @@
+UPDATE Grade SET grade = 'D' WHERE year = 1992 AND subject_name = 'Potions';

@@ -1,0 +1,1 @@
+\project_{name} drinker \diff (\project_{s1.drinker} ((\rename_{s1:*} frequents \join_{s1.drinker=s2.drinker and s1.bar<>s2.bar} \rename_{s2:*} frequents)));

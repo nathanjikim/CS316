@@ -1,0 +1,1 @@
+(SELECT name FROM Drinker) EXCEPT (SELECT drinker FROM Frequents GROUP BY drinker HAVING COUNT(bar) > 1);

@@ -1,0 +1,1 @@
+db.people.find({ $or: [{name: /Bernard /}, {name: /Angus /}]}).toArray()

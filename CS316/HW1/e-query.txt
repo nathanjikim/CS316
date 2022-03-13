@@ -1,0 +1,1 @@
+\project_{s1.drinker} (\rename_{s1:*} likes \join_{s1.drinker=s2.drinker and s1.beer<>s2.beer} \rename_{s2:*} likes);

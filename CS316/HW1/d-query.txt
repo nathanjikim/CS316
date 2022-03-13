@@ -1,0 +1,1 @@
+\project_{likes.drinker} (frequents \join_{frequents.drinker=likes.drinker and frequents.bar='Down Under Pub' and times_a_week=2} (\project_{drinker} likes \diff \project_{drinker} (\select_{likes.beer='Corona'} likes)));

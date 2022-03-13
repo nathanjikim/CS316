@@ -1,0 +1,1 @@
+\project_{name, address} (bar \join_{beer='Corona' and price>3 and bar.name=serves.bar} serves);

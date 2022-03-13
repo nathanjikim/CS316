@@ -1,0 +1,1 @@
+SELECT name, address FROM Bar, Serves WHERE Serves.bar = Bar.name AND beer = 'Budweiser' AND price > 2.20;

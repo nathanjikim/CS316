@@ -1,0 +1,1 @@
+SELECT Likes.drinker FROM Likes GROUP BY drinker HAVING COUNT(beer) >= 2;

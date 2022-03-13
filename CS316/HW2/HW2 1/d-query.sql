@@ -1,0 +1,1 @@
+(SELECT DISTINCT Frequents.drinker FROM Frequents, Likes WHERE Frequents.drinker=Likes.drinker AND bar = 'The Edge') EXCEPT (SELECT Frequents.drinker FROM Frequents, Likes WHERE Frequents.drinker=Likes.drinker AND bar = 'The Edge' AND Likes.beer = 'Erdinger');

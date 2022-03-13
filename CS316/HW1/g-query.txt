@@ -1,0 +1,1 @@
+(\project_{s1.bar, s1.drinker} ((\rename_{s1:*} frequents \join_{s1.times_a_week>=s2.times_a_week and s1.bar=s2.bar} \rename_{s2:*} (\select_{drinker='Coy'} frequents)))) \diff (\project_{frequents.bar, frequents.drinker} (\select_{drinker='Coy' and bar='Down Under Pub'} frequents));

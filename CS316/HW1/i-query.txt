@@ -1,0 +1,1 @@
+(\rename_{bar, drinker} (\project_{name, drinker} (bar \join (\rename_{drinker, s3} drinker)))) \diff (\project_{bar, drinker} ((\project_{bar, beer, drinker} (serves \join (\rename_{drinker, s2} drinker))) \diff (\project_{bar, beer, drinker} (serves \join_{beer=s1} (\rename_{drinker, s1} likes)))));

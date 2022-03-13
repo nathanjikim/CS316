@@ -1,0 +1,1 @@
+UPDATE Teacher SET id = '11' WHERE id = '3';

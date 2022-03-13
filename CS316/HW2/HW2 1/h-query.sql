@@ -1,0 +1,1 @@
+SELECT name FROM Bar EXCEPT (SELECT bar FROM (SELECT bar, beer FROM Serves EXCEPT (SELECT bar, beer FROM (SELECT * FROM Likes NATURAL JOIN Frequents) AS thing1 NATURAL JOIN (SELECT bar, beer FROM Serves) AS serves1)) AS serves2);
